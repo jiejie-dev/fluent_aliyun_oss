@@ -2,14 +2,18 @@ name: fluent_aliyun_oss
 description: A flutter plugin that support to upload files and sign url for aliyun oss in android, ios platforms.
 version: 0.0.3
 homepage: https://github.com/jerloo/fluent_aliyun_oss
+publish_to: none
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=2.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  
+  fluent_object_storage:
+    path: ../fluent_object_storage
 
 dev_dependencies:
   flutter_test:
@@ -27,7 +31,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.github.jeremaihloo.fluent_aliyun_oss
+        package: dev.jiejie.fluent_aliyun_oss
         pluginClass: FluentAliyunOssPlugin
       ios:
         pluginClass: FluentAliyunOssPlugin

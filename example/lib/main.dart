@@ -1,14 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:fluent_aliyun_oss/client_config.dart';
-import 'package:fluent_aliyun_oss/put_object_event_handler.dart';
-import 'package:fluent_aliyun_oss/put_object_request.dart';
-import 'package:fluent_aliyun_oss_example/syncing_api_config.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:fluent_aliyun_oss/fluent_aliyun_oss.dart';
-import 'package:getdemos_commonapis/api.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
